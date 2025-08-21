@@ -1,0 +1,10 @@
+@layer theme, base, component, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* @import "./common/_normalize.css"; */
+@import "./common/_animation.css";
+@import "./common/_base.css";
+@import "./common/_a11y.css";
